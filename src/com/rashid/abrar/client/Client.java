@@ -1,13 +1,6 @@
 package com.rashid.abrar.client;
-import java.util.Scanner;
 
-import com.rashid.abrar.engine.GasEngine;
-import com.rashid.abrar.vehicle.HeavyVehicle;
-import com.rashid.abrar.vehicle.NormalVehicle;
-import com.rashid.abrar.vehicle.OilEngine;
-import com.rashid.abrar.vehicle.SportsVehicle;
-import com.rashid.abrar.vehicle.Vehicle;
-import com.rashid.abrar.vehicle.VehicleShowRoom;
+import com.rashid.abrar.vehicle.*;
 
 
 public class Client {
