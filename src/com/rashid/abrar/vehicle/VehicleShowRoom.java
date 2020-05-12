@@ -1,3 +1,4 @@
+package com.rashid.abrar.vehicle;
 import java.util.ArrayList;
 
 public class VehicleShowRoom {
@@ -19,7 +20,7 @@ public class VehicleShowRoom {
 	public void removeVehicle(Vehicle vehicle) {
 		vehicles.remove(vehicle);
 		if (vehicle instanceof SportsVehicle)
-			expectedVisitor += 20;
+			expectedVisitor -= 20;
 
 	}
 
@@ -32,7 +33,7 @@ public class VehicleShowRoom {
 	}
 
 	public void showVehiclesWithDetails() {
-		System.out.println("List of vehicles with details");
+		System.out.println("List of Vehicles With Details");
 		System.out.println("------------------------------");
 		for (Vehicle vehicle : vehicles) {
 			vehicle.showDetails();
@@ -40,11 +41,11 @@ public class VehicleShowRoom {
 	}
 
 	public void showVehiclesWithVisitors() {
-		System.out.println("Current Expected visitor: " + getExpectedVisitor());
-		System.out.println("List of vehicles:");
+		System.out.println("Current Expected Visitors: " + getExpectedVisitor());
+		System.out.println("List of Vehicles:");
 		System.out.println("-------------------------------");
 		for (Vehicle vehicle : vehicles) {
-			System.out.println("Model Number: " + vehicle.getModelNumber());
+			System.out.println(vehicle.getModelNumber());
 			
 		}
 	}

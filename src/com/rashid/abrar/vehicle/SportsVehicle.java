@@ -1,12 +1,13 @@
-public class HeavyVehicle extends Vehicle {
+package com.rashid.abrar.vehicle;
+public class SportsVehicle extends Vehicle {
 
-	private final String vehicleType="Heavy";
-	private final int weight=100;
+	private final String vehicleType="Sports";
+	private String turbo = "Turbo";
 	
-	public HeavyVehicle() {
-		super.setEngine(new DieselEngine());
-	
+	public SportsVehicle() {
+		super.setEngine(new OilEngine());
 	}
+
 
 	@Override
 	void showDetails() {
@@ -16,11 +17,16 @@ public class HeavyVehicle extends Vehicle {
 		System.out.println(">> Engine Power: "+super.getEnginePower());
 		System.out.println(">> Tire Size: "+super.getTireSize());
 		System.out.println(">> Engine Type: "+super.getEngine().getEngineName());
-		System.out.println("Weight: "+weight+"\n");
+		System.out.println(">> "+turbo+"\n");
 		
 	}
 	
-		
+	
 
+
+
+
+
+	
 
 }

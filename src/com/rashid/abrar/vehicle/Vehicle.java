@@ -1,17 +1,19 @@
+package com.rashid.abrar.vehicle;
+import com.rashid.abrar.engine.Engine;
 
 abstract public class Vehicle {
 	
-	private int modelNumber;
+	private String modelNumber;
 	private int enginePower;
 	private int tireSize;
 	private Engine engine;
 
 	abstract void showDetails();
 
-	public int getModelNumber() {
+	public String getModelNumber() {
 		return modelNumber;
 	}
-	public void setModelNumber(int modelNumber) {
+	public void setModelNumber(String modelNumber) {
 		this.modelNumber = modelNumber;
 	}
 	public int getEnginePower() {

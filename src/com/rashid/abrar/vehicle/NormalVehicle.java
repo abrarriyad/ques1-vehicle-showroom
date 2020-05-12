@@ -1,3 +1,6 @@
+package com.rashid.abrar.vehicle;
+import com.rashid.abrar.engine.Engine;
+import com.rashid.abrar.engine.GasEngine;
 
 public class NormalVehicle extends Vehicle {
 

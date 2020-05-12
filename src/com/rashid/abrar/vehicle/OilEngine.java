@@ -1,3 +1,5 @@
+package com.rashid.abrar.vehicle;
+import com.rashid.abrar.engine.Engine;
 
 public class OilEngine extends Engine {
 
