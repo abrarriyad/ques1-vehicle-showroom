@@ -1,4 +1,5 @@
 package com.rashid.abrar.vehicle;
+
 import java.util.ArrayList;
 
 public class VehicleShowRoom {
@@ -46,7 +47,7 @@ public class VehicleShowRoom {
 		System.out.println("-------------------------------");
 		for (Vehicle vehicle : vehicles) {
 			System.out.println(vehicle.getModelNumber());
-			
+
 		}
 	}
 
